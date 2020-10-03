@@ -11,7 +11,7 @@ const SideBar = (props) => {
 
   return (
     <SideBarContainer>
-      <LogoContainer src={Logo} width={100} />
+      {/* <LogoContainer src={Logo} width={100} /> */}
       <PersonalInfo />
     </SideBarContainer>
   );

@@ -5,7 +5,7 @@ import { useToasts } from "react-toast-notifications";
 import Container from "./reusable/Container";
 import Colors from "../constants/Colors";
 import { MdMailOutline } from "react-icons/md";
-import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const PersonalInfo = (props) => {
   const { addToast } = useToasts();
@@ -54,18 +54,13 @@ const PersonalInfo = (props) => {
         <FaGithub size={iconSize} />
         <span>Github</span>
       </LinkContainer>
-
-      <LinkContainer href={""} target={"_blank"}>
-        <FaFileDownload size={iconSize} />
-        <span>Resume</span>
-      </LinkContainer>
     </PersonalInfoContainer>
   );
 };
 
 const PersonalInfoContainer = styled(Container)`
   flex-direction: column;
-  margin-bottom: 120px;
+  align-items: center;
 `;
 
 const LinkContainer = styled.a`

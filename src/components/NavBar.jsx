@@ -12,6 +12,11 @@ const NavBar = (props) => {
       </PageLink>
       <PageLink to="/portfolio">PORTFOLIO</PageLink>
       <PageLink to="/work-experience">WORK EXPERIENCE</PageLink>
+      <ButtonContainer>
+        <ResumeButton href={""} target={"_blank"}>
+          RESUME
+        </ResumeButton>
+      </ButtonContainer>
     </NavBarContainer>
   );
 };
@@ -21,11 +26,31 @@ const NavBarContainer = styled.div`
   top: 0;
   padding: 10px 20px;
   display: flex;
-  flex: 1;
+  flex: 1
   justify-content: flex-start;
   align-items: center;
   background-color: ${Colors.primaryLight};
-  color: ${Colors.primaryDark};
+  font-family: Poppins;
+  font-size: 1em;
+  font-weight: 500;
+`;
+
+// Resume download button container on the Navbar
+const ButtonContainer = styled.div`
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 80px;
+`;
+
+const ResumeButton = styled.a`
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 4px;
+  background-color: ${Colors.primaryDark};
+  color: ${Colors.primaryLight};
 `;
 
 const PageLink = styled(NavLink)`
@@ -36,9 +61,7 @@ const PageLink = styled(NavLink)`
   color: ${Colors.primaryDark};
   border-bottom: 2px solid transparent;
   outline: none;
-  font-family: Poppins;
-  font-size: 1em;
-  font-weight: 500;
+  transition: border 300ms;
 
   &.active {
     border-bottom: 2px solid ${Colors.primaryDark};
