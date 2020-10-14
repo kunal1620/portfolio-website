@@ -27,7 +27,7 @@ function App() {
         <PageSection>
           <NavBar />
           <Switch>
-            <Route exact path="/" component={HomePage} />
+            <Route exact path="/portfolio-website" component={HomePage} />
             <Route path="/work-experience" component={WorkExperience} />
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
