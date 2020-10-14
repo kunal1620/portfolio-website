@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.121f1119.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.e63ed394.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.e63ed394.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.1df25937.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.1df25937.js.map",
+    "static/js/2.ced538ab.chunk.js": "/portfolio-website/static/js/2.ced538ab.chunk.js",
+    "static/js/2.ced538ab.chunk.js.map": "/portfolio-website/static/js/2.ced538ab.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.e7795c96abd0c856bd7256adba332dae.js": "/portfolio-website/precache-manifest.e7795c96abd0c856bd7256adba332dae.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/main.121f1119.chunk.css.map": "/portfolio-website/static/css/main.121f1119.chunk.css.map",
+    "static/js/2.ced538ab.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.ced538ab.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio-website/static/media/HindVadodara-SemiBold.5a6a6f00.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1df25937.js",
+    "static/js/2.ced538ab.chunk.js",
+    "static/css/main.121f1119.chunk.css",
+    "static/js/main.e63ed394.chunk.js"
+  ]
+}
