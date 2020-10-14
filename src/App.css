@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: "hind-vadodara";
+    font-style: normal;
+    font-weight: 300;
+    src: local("hind-vadodara"), url(./res/fonts/HindVadodara-Light.ttf);
+}
+@font-face {
+    font-family: "hind-vadodara";
+    font-style: normal;
+    font-weight: 400;
+    src: local("hind-vadodara"), url(./res/fonts/HindVadodara-Regular.ttf);
+}
+@font-face {
+    font-family: "hind-vadodara";
+    font-style: normal;
+    font-weight: 500;
+    src: local("hind-vadodara"), url(./res/fonts/HindVadodara-Medium.ttf);
+}
+@font-face {
+    font-family: "hind-vadodara";
+    font-style: normal;
+    font-weight: 600;
+    src: local("hind-vadodara"), url(./res/fonts/HindVadodara-SemiBold.ttf);
+}
+@font-face {
+    font-family: "hind-vadodara";
+    font-style: normal;
+    font-weight: 700;
+    src: local("hind-vadodara"), url(./res/fonts/HindVadodara-Bold.ttf);
+}
+
+
