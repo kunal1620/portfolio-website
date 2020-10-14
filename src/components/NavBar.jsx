@@ -7,7 +7,7 @@ import Colors from "../constants/Colors";
 const NavBar = (props) => {
   return (
     <NavBarContainer>
-      <PageLink to="/" exact={true}>
+      <PageLink to="/portfolio-website" exact={true}>
         ABOUT ME
       </PageLink>
       <PageLink to="/portfolio">PORTFOLIO</PageLink>
