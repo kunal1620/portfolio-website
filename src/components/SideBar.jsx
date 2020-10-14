@@ -1,23 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "./Logo.svg";
 import PersonalInfo from "./PersonalInfo";
 import Container from "./reusable/Container";
 
 import Colors from "../constants/Colors";
 
-const SideBar = (props) => {
-  const handleDownload = () => {};
-
-  return (
-    <SideBarContainer>
-      {/* <LogoContainer src={Logo} width={100} /> */}
-      <PersonalInfo />
-    </SideBarContainer>
-  );
-};
-
-const LogoContainer = styled.img``;
+const SideBar = (props) => (
+  <SideBarContainer>
+    <PersonalInfo />
+  </SideBarContainer>
+);
 
 const SideBarContainer = styled(Container)`
   display: flex;

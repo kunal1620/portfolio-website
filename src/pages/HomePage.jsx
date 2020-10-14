@@ -10,14 +10,13 @@ const HomePage = (props) => {
       alignItems="flexStart"
       justifyContent="flexStart"
     >
-      <Greeting>Hello!</Greeting>
+      <Greeting>Hello, I am Kunal Pawar</Greeting>
 
       <Introduction>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu
+        I am a software developer based in Melbourne. I love developing awesome
+        web applications. I love programming and experimenting with new things.
+        This are some of the technologies that I have mainly worked with: <br />
+        <b>Java, Javascript (ES6), React, jQuery, Node.js</b>
       </Introduction>
     </PageContainer>
   );
@@ -32,7 +31,7 @@ const Greeting = styled.span`
 `;
 
 const Introduction = styled.p`
-  width: 80%;
+  width: 65%;
   margin-left: 90px;
   margin-right: 20px;
   font-size: 20px;

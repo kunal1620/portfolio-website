@@ -14,7 +14,7 @@
  </g>
  <g>
   <title>Layer 1</title>
-  <rect fill="none" stroke="#000" stroke-width="1.5" x="294.5" y="204" width="180" height="180" id="svg_1"/>
-  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="367.35178" y="277.71951" id="svg_3" font-size="20" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(10.5544, 0, 0, 6.76945, -3563.58, -1544.36)" filter="url(#svg_3_blur)">K</text>
+  <rect fill="none" stroke="#60C8AC" stroke-width="12" x="180" y="180" width="400" height="400" id="svg_1"/>
+  <text fill="#60C8AC" stroke="#60C8AC" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="361.5" y="296" id="svg_3" font-size="36" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(10.5544, 0, 0, 6.76945, -3563.58, -1544.36)" filter="url(#svg_3_blur)">K</text>
  </g>
 </svg>
